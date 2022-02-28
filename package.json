@@ -1,0 +1,19 @@
+{
+  "name": "btc-minilib",
+  "version": "0.1.0",
+  "description": "A mini bitcoin libary / Мини биткоин библиотека",
+  "main": "btc-minilib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad441",
+  "keywords": [
+    "blockchain",
+    "btc",
+    "bitcoin",
+    "libary",
+	"checker",
+	"btc lib"
+  ],
+  "license": "CC0"
+}
