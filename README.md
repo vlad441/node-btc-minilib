@@ -4,7 +4,7 @@ A mini bitcoin libary / Мини биткоин библиотека.
 
 ## Пример
 ```js
-let blib = require('./node-modules/btc-minilib/btc-minilib.js');
+let blib = require('btc-minilib');
 let wifprefix = "80"; // Префикс генерации WIF ключей для BTC Mainnet
 let p2pkh_pefix = "00"; // Префикс вычисления p2pkh адресов для BTC Mainnet
 
@@ -55,7 +55,7 @@ let p2pkh_pefix = "00"; // Префикс вычисления p2pkh адрес�
 ```
 Пример:
 ```js
-let blib = require('./node-modules/btc-minilib/btc-minilib.js');
+let blib = require('btc-minilib');
 (async function(){ console.log(await blib.request("address", "1EHNa6Q4Jz2uvNExL497mE43ikXhwF6kZm")); })();
 ```
 Ответ: 
